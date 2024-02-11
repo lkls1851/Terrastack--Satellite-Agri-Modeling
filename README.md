@@ -6,6 +6,7 @@ Input Data: Clipped rasters for 568 GIDs
 Temporal Coverage: 12 months
 ### Part-1:
 The given dataset is unlabelled. So first task is to apply image processing techniques to classify each image in to three different class. This part does not require any learning/ predictive model as it is a part of known dataset preparation.
+The final labelled dataset is stored in labels.csv
 ### Part-2:
 In this part, we develop a model and train it on the above prepared dataset and try to test it in new data.
 
