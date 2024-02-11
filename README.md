@@ -1,5 +1,14 @@
 # Terrastack: Satellite Agri-Modeling
 
+## Problem Statement:
+### Dataset Overview:
+Input Data: Clipped rasters for 568 GIDs
+Temporal Coverage: 12 months
+### Part-1:
+The given dataset is unlabelled. So first task is to apply image processing techniques to classify each image in to three different class. This part does not require any learning/ predictive model as it is a part of known dataset preparation.
+### Part-2:
+In this part, we develop a model and train it on the above prepared dataset and try to test it in new data.
+
 ## Image Annotation:
 
 From visual inspection, for class <lush>, the colour of the image is dark green, for <growing>, the colur is light green and for no_crop, the images contain barren land and are mostly brown.
